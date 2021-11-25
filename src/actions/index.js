@@ -1,12 +1,13 @@
 //ACTION  -> INCREMENT (describes what you want to do!) it's a simple function
 
-const increment = () => {
+export const increment = (nr) => {
 	return {
 		type: "INCREMENT",
+		payload: nr,
 	};
 };
 
-const decrement = () => {
+export const decrement = () => {
 	return {
 		type: "DECREMENT",
 	};
