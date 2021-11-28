@@ -1,9 +1,9 @@
 //ACTION  -> INCREMENT (describes what you want to do!) it's a simple function
 
-export const increment = (nr) => {
+export const increment = (number) => {
 	return {
 		type: "INCREMENT",
-		payload: nr,
+		payload: number,
 	};
 };
 
